@@ -19,6 +19,7 @@
 -->
 
 ## Upcoming Release
+* Fixed an issue that blocked `Az.Resources 6.6.1` being imported because of the assembly conflict in Azure Automation runbooks. [#21647]
 * Updated System.Security.Permissions to 4.7.0.
 
 ## Version 2.12.2
