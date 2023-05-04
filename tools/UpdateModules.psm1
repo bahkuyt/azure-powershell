@@ -93,6 +93,7 @@ function New-ModulePsm1 {
         }
 
         # Scripts to preload dependency assemblies on Windows PowerShell
+        # https://stackoverflow.com/a/60068470
         $preloadAssemblies = ""
         $isAzAccounts = $file.BaseName -ieq 'Az.Accounts'
         if ($isAzAccounts) {
